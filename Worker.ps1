@@ -1,6 +1,6 @@
 ﻿#Import Script
-. $PSScriptRoot\CreateCollection.ps1
-. $PSScriptRoot\ConnectToSite.ps1
+. $PSScriptRoot\bin\CreateCollection.ps1
+. $PSScriptRoot\bin\ConnectToSite.ps1
 
 ConnectToSite
 
