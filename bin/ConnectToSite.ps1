@@ -1,7 +1,6 @@
-﻿function ConnectToSite {
-# Site configuration
-$SiteCode = "AS1" # Site code 
-$ProviderMachineName = "SRVMISCCMCB.asystel.local" # SMS Provider machine name
+﻿. $PSScriptRoot\..\parameters.ps1
+
+function ConnectToSite {
 
 # Customizations
 $initParams = @{}
